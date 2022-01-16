@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+}
+
+.header_contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+}
+
+.header_a {
+    margin-top: 35px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: green;
+    /* width: 100%; */
+    /* height: 80px; */
+}
