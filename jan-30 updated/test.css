@@ -1,0 +1,45 @@
+button{
+    border-radius: 5px;
+    border: 1px solid green;
+    height: 30px;
+    width: 80px;
+    background: white;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+  }
+  
+  td{
+    border:1px solid green;
+    text-align: center;
+    height: 30px;
+    font-family: italic;
+    border-radius: 5px;
+  }
+  
+  h1{
+    color: green;
+  }
+  
+  table{
+    margin-top: 50px;
+    width: 700px;
+  }
+  
+  button:hover{
+    color: white;
+    background: red;
+  }
+  
+  .inp-search{
+    border: 1px solid green;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-family: italic;
+    font-size: 18px;
+  }
