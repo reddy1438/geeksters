@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box ;
+    margin: 0;
+ }
+ 
+ body {
+    margin: auto;
+    background-color: blue;
+ }
+ 
+ .container {
+    margin: auto;
+    margin-top: 60px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 5px solid red;
+ 
+ }
+ h2 {
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    margin: 20px ;
+    font-size: 50px;
+ }
+ 
+ .span {
+    width: 600px;
+    margin: 20px 10px 10px ;
+    font-size: 45px;
+    border: 1px solid cornsilk;
+ }
+ 
+ .button {
+    margin:20px 71px;
+ }
+ 
+ button {
+    margin: auto;
+    width: 140px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, orange, blue);
+    font-size: 20px;
+ }
+ 
+ .timer_color {
+    margin: auto;
+    border: 1px solid transparent;
+    width: 575px;
+    height: 10px;
+    background: linear-gradient(to right, white 50%, skyblue 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 5s linear;
+ }
